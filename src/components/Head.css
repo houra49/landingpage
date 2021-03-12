@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+header{
+    margin:0;
+    background-color: rgb(25, 85, 25);
+    height:60vh;
+}
+.heads{
+    text-align: center;
+}
+#hello{
+    margin:0;
+    font-family: 'Redressed', cursive;
+    padding-top: 5%;
+    color:#000;
+}
+#glint{
+    color:#ffff;
+    font-family: 'Redressed', cursive;
+    padding: 2% 0;
+    margin-left: 25%;;
+    border-bottom: #fff solid 1px;
+    width:50%;
+    font-size:3em
+}
+.para{
+    font-family: 'Inconsolata', monospace;
+    width:70%;
+    padding-left: 15%;
+    line-height: 25px;
+    font-weight: 600;
+}
+.table, th, td {
+    width: 700px;
+    margin:3% auto;
+  }
+  th{
+      font-size:3em;
+      color:#fff;
+      font-family: 'Redressed', cursive;
+      border-right: 1px solid #fff;
+      border-collapse:collapse;
+  }
+  td{
+      text-align: center;
+      font-family: 'Inconsolata', monospace;
+      font-weight: 600;
+  }
+  .td4{
+      border-right: none;
+  }
